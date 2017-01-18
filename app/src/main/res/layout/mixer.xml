@@ -1,0 +1,68 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@+id/swatch"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_height="40dip"
+        android:layout_marginLeft="4dip"
+        android:layout_width="40dip" />
+
+    <TextView
+        android:id="@+id/redLabel"
+        android:layout_alignTop="@id/swatch"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:layout_toRightOf="@id/swatch"
+        android:layout_width="wrap_content"
+        android:text="@string/red"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/red"
+        android:layout_alignTop="@id/redLabel"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="8dip"
+        android:layout_toRightOf="@id/redLabel"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/greenLabel"
+        android:layout_below="@id/redLabel"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:layout_marginTop="4dip"
+        android:layout_toRightOf="@id/swatch"
+        android:layout_width="wrap_content"
+        android:text="@string/green"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/green"
+        android:layout_alignTop="@id/greenLabel"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="8dip"
+        android:layout_toRightOf="@id/greenLabel"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/blueLabel"
+        android:layout_below="@id/greenLabel"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:layout_marginTop="4dip"
+        android:layout_toRightOf="@id/swatch"
+        android:layout_width="wrap_content"
+        android:text="@string/blue"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/blue"
+        android:layout_alignTop="@id/blueLabel"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="8dip"
+        android:layout_toRightOf="@id/blueLabel"
+        android:layout_width="match_parent" />
+</merge>
